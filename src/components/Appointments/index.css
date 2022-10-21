@@ -1,0 +1,162 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 40px;
+  width: 80%;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 780px) {
+  .top-container {
+    flex-direction: column;
+  }
+  .image-container {
+    order: 0;
+  }
+  .form-container {
+    order: 1;
+  }
+  .appointments-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.label-text {
+  color: #b5b7c4;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.box {
+  height: 45px;
+  width: 250px;
+  border: 1px solid #171f46;
+  outline: none;
+  padding: 10px;
+  color: #171f46;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+::placeholder {
+  color: #171f46;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.btn {
+  color: #ffffff;
+  background-color: #9796f0;
+  padding: 10px;
+  border-radius: 5px;
+  width: 60px;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.image {
+  width: 280px;
+  height: 220px;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.seperator {
+  color: #171f46;
+  width: 100%;
+  border: 1px solid #171f46;
+  background-color: #171f46;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bottom-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.appointments-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.head {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+.star-button {
+  color: #9796f0;
+  background-color: transparent;
+  border: 1px solid #9796f0;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+}
+.active-star-button {
+  color: #ffffff;
+  background-color: #9796f0;
+  padding: 10px;
+  border-radius: 30px;
+  width: 100px;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
